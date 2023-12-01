@@ -18,3 +18,7 @@ This advanced fraud script is designed for ESX/QB, providing a free alternative 
 
 1. Clone this repository into your resources.
 2. Configure config.lua.
+   
+## License
+
+This fraud script is open-source and distributed under the [MIT License](LICENSE).
