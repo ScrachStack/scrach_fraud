@@ -23,7 +23,7 @@ local createmenu = function()
                 title = item.itemName,
                 description = "Price: $" .. item.price,
                 onSelect = function()
-                    TriggerServerEvent("zaps:fraud:gwdwiveitem", item.price, item.itemName, 1)
+                    TriggerServerEvent("zaps:fraud:giveitem", item.price, item.itemName, 1)
                 end,
                 icon = "circle",
                 metadata = {
