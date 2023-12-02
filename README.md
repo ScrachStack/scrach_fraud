@@ -18,6 +18,7 @@ This advanced fraud script is designed for ESX/QB, providing a free alternative 
 
 1. Clone this repository into your resources.
 2. Configure config.lua.
+3. Run job.sql (ESX USERS ONLY) QB users will need to add the job in there jobs.lua file :)
    
 ## License
 
