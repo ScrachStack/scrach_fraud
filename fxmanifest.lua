@@ -3,6 +3,7 @@ fx_version('cerulean')
 games({ 'gta5' })
 author 'Zaps6000'
 lua54 'yes'
+version '1.0'
 client_scripts({
 'client/*'
 });
