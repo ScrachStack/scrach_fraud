@@ -19,7 +19,6 @@ Config = {
             z = 29.1986,
             name = "Black Market 1",
             items = {
-                { itemName = "printer", price = 5000 },
                 { itemName = "card", price = 100 },
             },
         },
