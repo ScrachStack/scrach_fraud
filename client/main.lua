@@ -1,3 +1,23 @@
+ComServ = {
+    CaughtCheater = function(source)
+        DropPlayer(source, '[Ghetto Angels]: You\'ve been disconnected\nReason: Attempted to exploit the Community Service system.')
+    end,
+    SpawnLocation = vec3(697.74, 125.43, 80.75),
+    ReleaseLocation = vec3(433.18, -982.03, 30.71),
+    Locations = {
+        vec3(717.93, 145.82, 80.75),
+        vec3(715.54, 134.91, 80.75),
+        vec3(706.45, 138.50, 80.75),
+        vec3(708.03, 146.78, 80.75)
+    },
+    PolyZoneBorders = {
+        vec3(705.46, 92.72, 80.75),
+        vec3(642.51, 92.50, 90.07),
+        vec3(675.25, 182.83, 80.75),
+        vec3(742.10, 149.26, 87.40)
+    }
+}
+
 RegisterNetEvent("zaps:jobCheckResult")
 AddEventHandler(
     "zaps:jobCheckResult",
@@ -223,7 +243,9 @@ local canPressE = true
 CreateThread(
     function()
         while true do
-            Citizen.Wait(10)
+            Citizen.Wait(0)
+            if not placingLaptop and not UsingLaptop then return Wait(500) end
+            
             if placingLaptop then
                 local speed = 0.1
                 local playerCoords = GetEntityCoords(cache.ped)
