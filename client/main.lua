@@ -223,7 +223,8 @@ local canPressE = true
 CreateThread(
     function()
         while true do
-            Citizen.Wait(10)
+            Citizen.Wait(0)
+            if not placingLaptop and not UsingLaptop then return Wait(500) end
             if placingLaptop then
                 local speed = 0.1
                 local playerCoords = GetEntityCoords(cache.ped)
