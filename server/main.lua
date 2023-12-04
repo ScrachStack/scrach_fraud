@@ -130,7 +130,7 @@ ESX.RegisterUsableItem(Config.ScamItems[1].itemName, function(playerId)
     local xPlayer = ESX.GetPlayerFromId(playerId)
     xPlayer.removeInventoryItem(Config.ScamItems[1].itemName, 1)
     xPlayer.showNotification('You used ' .. Config.ScamItems[1])
-    TriggerClientEvent('zaps:fraud:placelaptop')
+        TriggerClientEvent('zaps:fraud:placelaptop', playerId)
 end)
 end
 
