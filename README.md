@@ -1,4 +1,4 @@
-# Zaps Fraud Script
+#  Fraud Script
 ---
  [![](https://dcbadge.vercel.app/api/server/cfxdev)](https://discord.gg/cfxdev)
 ---
