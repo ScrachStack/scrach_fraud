@@ -1,6 +1,6 @@
 #  Fraud Script
 ---
- [![](https://dcbadge.vercel.app/api/server/cfxdev)](https://discord.gg/cfxdev)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01APGOO)
 ---
 This advanced fraud script is designed for ESX/QB, providing a free alternative to other paid and similar scripts. The goal is to offer a clean and efficient solution for in-game fraud activities.
 
